@@ -1,0 +1,16 @@
+/*BODY*/
+.gradiante{
+    background: linear-gradient(#8d0f01, #0c1b27, #010407);
+    width: 100%;
+    height: 100%;
+}
+
+/*ACA EMPIEZA GRID*/
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    text-align: center;
+}
